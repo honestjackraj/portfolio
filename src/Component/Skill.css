@@ -1,0 +1,179 @@
+/* .Skill__containerr{
+    row-gap: 0;
+}
+.Skill--desing-full{
+  
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   height: max-content;
+}
+
+
+.Skill__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+
+
+}
+
+.Skill--desing-full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Skill-head{
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    color:var(--orange);
+
+}
+.Skill-subtitle2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.Skill__icon,
+.Skill__arrow{
+    font-size: 2rem;
+   color: var(--first-colour);
+
+}
+.Skill__icon{
+    margin-right: var(--mb-0-75);
+
+}
+.Skill__title{
+    font-size: var(--h3-font-size);
+    
+}
+.Skill__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    text-align: center;
+
+}
+.Skill__arrow{
+    margin-bottom: auto;
+    transition: .4s;
+
+}
+.Skill__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+    
+    
+}
+
+.Skill__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+     
+}
+
+.Skill__bar,
+.Skill__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.Skill__bar{
+    background-color: var(--first-colour-lighter);
+
+}
+.Skill__percentage{
+    display:block  ;
+    background-color: orange;
+}
+
+.Skill__html{
+    width: 90%;
+}
+.Skill__css{
+    width: 80%;
+}
+.Skill__js{
+    width: 70%;
+}
+.Skill__react{
+    width: 80%;
+}
+.Skill__mongo{
+    width: 80%;
+}
+.Skill__node{
+    width: 70%;
+}
+.Skill__firebase{
+    width: 40%;
+}
+.Skill__express{
+    width: 70%;
+}
+.Skill__figma{
+    width: 70%;
+}
+.Skill__sketch{
+    width: 85%;
+}
+.Skill__photoshop{
+    width: 75%;
+}
+
+.Skill__close  .Skill__list{
+    height: 0;
+    overflow: hidden;
+
+}
+.Skill__open .Skill__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+
+
+}
+
+.Skill__open .Skill__arrow{
+     transform: rotate(-180deg);
+}
+.Skill__data{
+    padding: 0px 0px 20px 0px;
+}
+
+
+.Skill-aline-des1{
+ height: 220px;
+ width: 500px;
+  position: relative;
+   margin: 0px 0px 0px -200px;
+
+}
+.Skill-aline-des2{
+ height: 220px;
+ width: 500px;
+  position: relative;
+   margin: -200px 0px 0px 400px;
+
+}
+.Skill-aline-des3{
+    height: 220px;
+    width: 500px;
+     position: relative;
+      margin: 0px 0px 0px -200px;
+
+}
+ */
+.boot{
+    width: 100px;
+    height: fit-content;
+    margin: 10px;
+   
+}
