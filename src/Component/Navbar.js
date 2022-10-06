@@ -1,12 +1,14 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
 import "./Navbar.css"
+// import logoname from "../asset/logoname.png"
 
 const Navbar = () => {
   return (
     <div className='n-warpper'>
     <div className='n-left'>
-    <div className='n-name'>HONEST</div>
+    <div className='n-name'> HONEST </div>
+    {/* <img className='n-name' href={logoname} alt="img" ></img> */}
     <span>
     {/* <div class="nav__btns">
                     

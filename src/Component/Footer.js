@@ -9,20 +9,21 @@ import Flinkdin from "../asset/Flinkdin.png"
 const Footer = () => {
   return (
     <> 
-    {/* <div class="scrollup">
+    <div contaniner-fulid>
+    <div class="scrollup">
      <a href="#" class="scrollup" id="scroll-top">
      <i class="uil uil-arrow-up scrollup__icon"></i>
 
         </a>
-        </div> */}
+        </div>
 
         <div  className='container footer-all'>
 
         <div className='footer-all'>
-        <img className="foot-wave" src={wave}
+        <img className="foot-wave-yellow" src={wave}
             alt="no image"/>
    </div>
-   <p  className='foot-para'> If you are interested in my profile just click and follow</p>
+   <p  className='foot-para'> If you are interested in my profile just click and follow Me or Hire Me</p>
    <div className='F-icon-3-foot' >
    <p  className='F-icon-p-para'></p>
    
@@ -59,7 +60,7 @@ const Footer = () => {
 
 
 
-
+        </div>
       
     </>
   )

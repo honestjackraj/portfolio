@@ -25,7 +25,7 @@ const Qualification = () => {
                  <div className='qultion'>  
                     
    <span class="qualification__rounder"></span>
-      <span class="qualification__line"></span> 
+      {/* <span class="qualification__line"></span>  */}
         <div class="home-qualification-div2">
             <div class="home-qulification1">Full Stack Developer</div>
             <div class="home-qulification2">GUVI Geek Network Private Limited-Chennai, 2022</div>
@@ -34,7 +34,7 @@ const Qualification = () => {
 
        
    <span class="qualification__rounder"></span>
-      <span class="qualification__line"></span> 
+      {/* <span class="qualification__line"></span>  */}
         <div class="home-qualification-div2">
             <div class="home-qulification1">Bachelor Of Engineering[ECE]</div>
             <div class="home-qulification2">Saraswati Vellu college of Engineering-VELLORE, 2013-2017</div>

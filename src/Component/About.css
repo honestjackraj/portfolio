@@ -44,9 +44,7 @@
 }
 
 
-.abt-details{
-   
-}
+
 .information-name{
     justify-content: center;
     align-items: center;
@@ -82,6 +80,8 @@
 
 }
 
+
+
 .information{
     display: flex;
     align-items: center;
@@ -116,6 +116,10 @@
 } 
 .resume{
     padding: 50px 250px 0px 0px;
+}
+.resume-name{
+    color: aliceblue;
+    text-decoration: none;
 }
 
 

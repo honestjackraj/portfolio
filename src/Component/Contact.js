@@ -86,9 +86,9 @@ const Contact = () => {
                             
                             <input type="number"  name="phone number"class="contact__input" required placeholder="Phone number"/>
                         </div>
-                        <div class="contact__content">
+                        <div >
                             
-                            <textarea name="details" id="" cols="0" rows="" class="contact__input" required placeholder="Message"></textarea>
+                            <textarea name="details" id="" cols="0" rows="" class="contact__input contanct-massg" required placeholder="Message"></textarea>
                         </div>
                         
                         <div>
