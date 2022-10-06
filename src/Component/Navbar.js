@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='n-warpper'>
     <div className='n-left'>
-    {/* <div className='n-name'>HONEST</div> */}
+    <div className='n-name'>HONEST</div>
     <span>
     {/* <div class="nav__btns">
                     
