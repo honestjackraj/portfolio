@@ -1,17 +1,11 @@
-.contact__container {
+/* .contact__container {
     row-gap: 3rem;
+    
   }
   
-  .contact__information {
-    display: flex;
-    margin-bottom: var(--mb-2);
-  }
+ 
   
-  .contact__icon {
-    font-size: 2rem;
-    color: var(--first-color);
-    margin-right: var(--mb-0-75);
-  }
+  
   
   .contact__title {
     font-size: var(--h3-font-size);
@@ -44,9 +38,86 @@
     outline: none;
     padding: .25rem .5rem .5rem 0;
   }
+   */
+
+
+
+
   
+  .login-container {
+    position: absolute;
+    margin: 60px 0px 0px 100px;
+    width: 1000px;
+    /* border-color: black; */
+  }
+
+  .login-row {
+    height: 600px;
+    margin: 0px -150px 0px 0px;
+  
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+  }
+  .login-form {
+    padding: 90px 0px 0px 100px;
+    position: absolute;
+    margin: -480px 0px 0px 450px;
+  
+
+
+  }
+  .contact__input{
+    height: 100px;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 28px;
+    background-color:rgb(249, 235, 235);
+    color: black;
+
+ 
+  }
+  .contact__information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+    margin: 76px -100px 0px 0px;
+    font-size: 11px;
+    
+   
+  }
+  .contact__icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+  }
+  .CONT-titel{
+    display: flex;
+    font-size: 45px;
+    color: var(--orange);
+    margin: 10px 0px 0px 100px;
+  }
+  .CONT-titel2{
+    
+    font-size: 26px;
+    color: var(--gray);
+    margin: 20px 0px 0px 100px;
+  }
+  .contact__input{
+    height: 80px;
+    margin: 5px;
+
+  }
+
+
+  .contact__content{
+
+  }
+
+
+
+
   /*==================== FOOTER ====================*/
-  .footer {
+  /* .footer {
     padding-top: 2rem;
   }
   
@@ -96,10 +167,10 @@
   
   .footer__title, .footer__subtitle, .footer__link, .footer__social {
     color: #FFF;
-  }
+  } */
   
   /*========== SCROLL UP ==========*/
-  .scrollup {
+  /* .scrollup {
     position: fixed;
     right: 1rem;
     bottom: -20%;
@@ -118,15 +189,15 @@
   .scrollup__icon {
     font-size: 1.5rem;
     color: #FFF;
-  }
+  } */
   
   /* Show scroll */
-  .show-scroll {
+  /* .show-scroll {
     bottom: 5rem;
   }
-  
+   */
   /*========== SCROLL BAR ==========*/
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     width: .60rem;
     border-radius: .5rem;
     background-color: var(--scroll-bar-color);
@@ -139,7 +210,10 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background-color: var(--text-color-light);
-  }
-  .contact{
-   
-  }
+  } */
+ 
+
+
+
+
+

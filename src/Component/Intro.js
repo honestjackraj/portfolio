@@ -1,39 +1,40 @@
 import React from 'react'
 import "./Intro.css"
-import { Link } from "react-router-dom";
-
-// import  Floatingdiv  from '../Component/Floatingdiv'
-
+// import { Link } from 'react-router-dom';
 import Github from "../image/github.png"
 import Linkedin from "../image/linkedin.png"
 import Instagram from "../image/instagram.png"
-import Vector1 from "../image/Vector1.png"
-import Vector2 from "../image/Vector2.png"
-import Myimg from "../image/myimg.png"
-// import  Crown from "../image/crown.png"
+import mylogo from "../image/mylogo.png"
 
 
 const Intro = () => {
     return (
-        <div className='intro'>
+        <div id='home' className='intro'>
             <div className='i-left'>
                 <div className='i-name'>
                     <span>Hy! I Am</span>
-                    <span>Honest Raj</span>
-                    <span> FullStack Developer with high level
+                    <span>HonestRaj</span>
+                    <span className='intro-fullstack-fsd'>Full Stack Developer</span>
+                    <span className='intro-fullstack'> FullStack Developer with high level
                         of experience in web designing and development, producting the Quality work
                     </span>
                 </div>
+                <br/>
+                <a href='#about'>
                  <button
-                 className='i-button'>Hire Me
+                 className='glow-on-hover'>Hire Me
                  </button>
+                 </a>
                  <div className='i-icons'>
-                    <a href=''>
+                    <a href='https://github.com/honestjackraj'>
                     <img src={Github}  alt="img"/>
                     </a>
+                    <a href='https://www.linkedin.com/feed/'>
                     <img src={Linkedin}  alt="img"/>
+                    </a>
+                    <a href='https://www.linkedin.com/feed/'>
                     <img src={Instagram}  alt="img"/>
-                    
+                    </a>  
                  </div>
 
 
@@ -57,9 +58,8 @@ const Intro = () => {
             </div>
             <div className='i-right'>
             
-                <img src={Vector1} alt=''/>
-                <img src={Vector2}alt=''/>
-                <img src={Myimg} alt=''/>
+                <img src={mylogo} alt=''/>
+               
 
         
 

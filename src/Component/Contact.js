@@ -18,8 +18,19 @@ const Contact = () => {
     };
   return (
     <>
-    <h2 class="section__title">Contact Me</h2>
-    <span class="section__subtitle">Get in touch</span>
+       <div id='contact'>
+			
+				<section className="my-4 mx-5 cl">
+					<div className="container login-container " >
+						<div className="row login-row ">
+							<div className="col-lg-5">
+
+
+
+
+
+    <h2 class="section__title CONT-titel">Contact Me</h2>
+    <span class="section__subtitle CONT-titel2">Get in touch</span>
     <br/>
     <br/>
     <div className='container'>
@@ -39,7 +50,7 @@ const Contact = () => {
                             <i class="uil uil-envelope contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">honest@email@email.com</span>
+                                <span class="contact__subtitle">honestjack2@email@email.com</span>
                             </div>
                         </div>
 
@@ -47,13 +58,19 @@ const Contact = () => {
                             <i class="uil uil-map-marker contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Chennai-Tamilnadu</span>
+                                <span class="contact__subtitle">VELLORE-Tamilnadu</span>
                             </div>
                         </div>
                     </div>
 
+
               </div>
-              <div className='col'>
+
+              </div>
+              </div>
+
+
+             <div className="col-lg-7 login-form">
               <form ref={form} onSubmit={sendEmail} class="contact__form grid" >
                         <div class="contact__inputs grid">
                             <div class="contact__content">
@@ -65,28 +82,39 @@ const Contact = () => {
                                 <input type="email"  name="email" class="contact__input" required placeholder="Email"/>
                             </div>
                         </div>
-                        {/* <div class="contact__content">
+                        <div class="contact__content">
                             
                             <input type="number"  name="phone number"class="contact__input" required placeholder="Phone number"/>
-                        </div> */}
+                        </div>
                         <div class="contact__content">
                             
                             <textarea name="details" id="" cols="0" rows="" class="contact__input" required placeholder="Message"></textarea>
                         </div>
                         
                         <div>
-                            <button type="submit" class="button button--flex">
+                            <button type="submit" class="button glow-on-hover">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
                             </button>
                         </div>
                     </form>
               </div>
-        </div>
+       
 
 
        
     </div>
+
+
+
+    
+      
+        </div>
+        </div>
+       
+          </section>
+          </div>
+
     </>
   )
 }

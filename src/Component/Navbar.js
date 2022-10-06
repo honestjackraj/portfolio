@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -6,21 +7,30 @@ const Navbar = () => {
     <div className='n-warpper'>
     <div className='n-left'>
     <div className='n-name'>HONEST</div>
-    <span>toggle</span>
+    <span>
+    {/* <div class="nav__btns">
+                    
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div> */}
+    </span>
     </div>
 
     <div className='n-right'>
     <div className='n-list'>
         <ul style={{listStyleType:'none'}}>
-            <li>home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
+            <li className='nav-cont-cen'> <a href='#intro'>Home </a></li>
+            <li className='nav-cont-cen'> <a href='#about'>About </a></li>
+            <li className='nav-cont-cen'><a href='#skills'>Skills </a></li>
+            <li className='nav-cont-cen'> <a href='#projrct'>Portfolio </a></li>
              
         </ul>
     </div>
-    <div className='btn'>
-     <button className='button'>CONTACT</button>
+    <div className='nav-cont-cen' >
+     <button className='glow-on-hover'> <a  href='#contact'>CONTACT </a></button>
      </div>
     </div>
 

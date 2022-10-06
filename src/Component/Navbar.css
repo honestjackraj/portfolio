@@ -1,18 +1,28 @@
 .n-warpper{
     height: 10vh;
     display: flex;
-    justify-content: space-around  ;
+    justify-content: space-around;
+  
+    
+    
 }
 .n-left{
     flex: 1;
     align-items: center;
     display: flex;
     gap: 2rem;
+    
+  
+
+
 }
 
 .n-name{
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(239, 251, 9);
+   border-radius: 15px;
 
 }
 .n-right{
@@ -20,26 +30,36 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 900;
+
+    
 }
 
 .n-list{
     flex: 10;
+    
+   
 }
 
 .n-list>ul{
     display: flex;
     gap: 2rem;
     margin-right: 4rem ;
-    
+   
 }
  
-.n-list>ul>li:hover{
+.n-list ul li a:hover{
     cursor: pointer;
     color: var(--orange);
 }
 
-.btn{
-    background-color: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
-    box-shadow :0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+.nav-cont-cen a{
+        text-decoration: none;
+        color: aliceblue;
+   
 }
+.n-list ul li a{
+    color:black;
+    text-decoration: none;
+}
+

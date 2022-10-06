@@ -1,48 +1,67 @@
 import React from 'react'
 import './Footer.css'
+import wave from "../image/wave.png"
+import Fgit from "../asset/Fgit.png"
+import Finsta from "../asset/Finsta.jpg"
+import Flinkdin from "../asset/Flinkdin.png"
+
 
 const Footer = () => {
   return (
-    <div>
+    <> 
+    {/* <div class="scrollup">
+     <a href="#" class="scrollup" id="scroll-top">
+     <i class="uil uil-arrow-up scrollup__icon"></i>
 
-<footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Vicky</h1>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#about" class="footer__link">About</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="footer__link">Contactme</a>
-                        </li>
-                    </ul>
-
-                   
-                </div>
-
-                
-            </div>
-        </footer>
-
-        {/* <!--========== SCROLL TOP ==========--> */}
-        <a href="#" class="scrollup" id="scroll-top">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
+        </div> */}
 
-        {/* <!--==================== SWIPER JS ====================--> */}
-        <script src="swiper-bundle.min.js"></script>
+        <div  className='container footer-all'>
 
-        {/* <!--==================== MAIN JS ====================--> */}
-        <script src="main.js"></script>
+        <div className='footer-all'>
+        <img className="foot-wave" src={wave}
+            alt="no image"/>
+   </div>
+   <p  className='foot-para'> If you are interested in my profile just click and follow</p>
+   <div className='F-icon-3-foot' >
+   <p  className='F-icon-p-para'></p>
+   
+   
+   <a href='https://github.com/honestjackraj'>
+                     <div className='F-icon-3-foot1'>
+                   <img src={Fgit}  alt="img"/>
+                    </div>
+                    </a> 
+                    <a href='https://www.linkedin.com/feed/'>
+                    <div className='F-icon-3-foot2'>
+                    <img src={Finsta}  alt="img"/>
+                    </div>
+                    </a>
+                    <a href='https://www.linkedin.com/feed/'>
+                    <div className='F-icon-3-foot3'>
+                    <img src={Flinkdin}  alt="img"/>
+                    </div>
+                    </a>
+        </div>
+        </div>
+
+
+
+  
+           
+        
+  
+
+
+
+
+
+
+
+
+
       
-    </div>
+    </>
   )
 }
 

@@ -171,9 +171,67 @@
 
 }
  */
-.boot{
-    width: 100px;
+
+ .Skil-head-all{
+   margin-top: 400px;
+   background-color: #f7eef6;
+   height: 600px;
+   
+   
+ }
+
+ .Skill-title1{
+    color: var(--black);
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0px -400px 0px 100px;
+ 
+    
+ }
+ .Skill-ski2{
+    color: var(--orange);
+    font-size: 2.8rem;
+    font-weight: bold;
+  margin: 0px -400px 0px 200px;
+   
+    position: absolute;
+
+ }
+
+
+
+
+.skill-icons{
+    width: 40px;
     height: fit-content;
     margin: 10px;
+    color: rgb(63, 63, 60);
+    transition-duration: .5s;
+    font-size: 20px;
    
+}
+.skill-icons:hover{
+    font-size: 30px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    
+}
+
+.skill-gif{
+    height: 400px;
+    width: 500px;
+    margin: 80px 0px 0px 50px;
+}
+
+
+.home-Skill_ul li {
+    font-size: 20px;
+    display: inline-flex;
+    list-style-type: disc;
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 63, 60);
+    transition-duration: .5s;
 }
