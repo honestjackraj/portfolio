@@ -11,7 +11,7 @@ const About = () => {
         <span>My Awesome</span>
         <span >About </span>
         <p className=' about-content'>I'm a full stack web developer and desinging new features from Ideation to production,  implementaition of wireframes and design flows in my web application. I take into consideration the user experience while writing reusable and efficlebt code  I passionately combine Good design,Technology,and Innovation in all my PROJECT </p>
-       <div className='resume'> <button  className='button glow-on-hover'>< a className='resume-name' href="https://drive.google.com/file/d/1Sixf4t9uP9M-pnjiklarNVEndwznGMfN/view?usp=sharing" >  Download CV </a><i class="uil uil-download-alt button__icon"></i></button></div>
+       <div className='resume'> <button  className='button glow-on-hover'>< a className='resume-name' href="https://drive.google.com/file/d/1g16nae2LtMBpCIEu0Am_9XJR78C_GyzA/view?usp=sharing" >  Download CV </a><i class="uil uil-download-alt button__icon"></i></button></div>
 
       </div>
 
