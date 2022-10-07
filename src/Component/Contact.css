@@ -19,9 +19,8 @@
   .login-form {
     padding: 90px 0px 0px 100px;
     position: absolute;
-    margin: -480px 0px 0px 450px;
-  
-
+    margin: -480px 0px 40px 450px;
+ 
 
   }
   .contact__input{
@@ -35,8 +34,10 @@
   }
   .contact__information {
     display: flex;
-    margin: 76px -100px 0px 0px;
+    margin: 76px 0px 0px 0px;
     font-size: 20x;
+    /* background-color: blue; */
+
     
    
   }
@@ -49,7 +50,7 @@
     display: flex;
     font-size: 45px;
     color: var(--orange);
-    margin: 10px 0px 0px 100px;
+    margin: 20px 0px 0px 100px;
   }
   .CONT-titel2{
     

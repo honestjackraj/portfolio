@@ -6,12 +6,13 @@
 
 }
 .intro-fullstack{
-  width: 700px;
+  width: 800px;
 }
 .I-left{
     display: flex;
     position: relative;
     flex: 1;
+
 }
 
 .i-name{
@@ -19,7 +20,7 @@
     flex-direction: column;
 }
 .i-name>:nth-child(1){
-    color:  #242d49;
+    color:#242d49;
     font-weight: bold;
     font-size: 2rem
 

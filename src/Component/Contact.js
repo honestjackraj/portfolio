@@ -18,6 +18,7 @@ const Contact = () => {
     };
   return (
     <>
+    <div className='container'>
        <div id='contact'>
 			
 				<section className="my-4 mx-5 cl">
@@ -37,7 +38,8 @@ const Contact = () => {
    
         <div className='row'>
               <div className='col'> 
-              <div>
+
+              <div className=''>
                         <div class="contact__information">
                             <i class="uil uil-phone contact__icon"></i>
                             <div>
@@ -70,7 +72,7 @@ const Contact = () => {
               </div>
 
 
-             <div className="col-lg-7 login-form">
+             <div className=" col login-form">
               <form ref={form} onSubmit={sendEmail} class="contact__form grid" >
                         <div class="contact__inputs grid">
                             <div class="contact__content">
@@ -113,6 +115,7 @@ const Contact = () => {
         </div>
        
           </section>
+          </div>
           </div>
 
     </>
