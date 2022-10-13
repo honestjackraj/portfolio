@@ -1,0 +1,55 @@
+.navbar {
+  height: 71px;
+}
+.na-log-name {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  display: flex;
+  font-weight: bold;
+}
+.my-name-nav {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.na-nm {
+  cursor: pointer;
+}
+.na-nm {
+  padding: 5px;
+  font-family: verdana;
+  font-size: 2em;
+  color: #262626;
+}
+.na-nm:hover {
+  font-weight: bold;
+  background: white;
+  border-radius: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.na-nm-bmw {
+  color: aliceblue;
+  margin-top: 3px;
+  border-radius: 60px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .navbar {
+    height: 400px;
+    border-radius: 5px;
+  }
+  .na-log-name {
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+    display: flex;
+    font-weight: bold;
+  }
+
+  .na-nm-bmw {
+    height: 255px;
+  }
+}

@@ -1,0 +1,83 @@
+.sk-bac-cor {
+    margin-top: 70px;
+  width: 1200px;
+  border-color: black;
+  background-color: #f7eef6;
+  border-radius: 50px;
+
+}
+.sk-bac-cor {
+  height: 760px;
+  border-radius: 30px;
+  box-shadow: 2px 21px  26px grey;
+}
+.Skill-title1 {
+  font-size: 3rem;
+  margin: 0px 0px 0px 100px;
+  color: #242d49;
+}
+.Skill-ski2 {
+  color:#ffbb33;
+  font-size: 3.8rem;
+  font-weight: bold;
+  margin: 0px 0px 0px 100px;
+
+}
+.icon-all-box {
+  margin-top: 130px;
+}
+.skill-icons {
+  width: 50px;
+  height: 40px;
+  margin: 10px;
+  color: rgb(63, 63, 60);
+  transition-duration: 0.5s;
+}
+.skill-icons:hover {
+  font-size: 9rem;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 80px;
+}
+
+.skill-gif {
+  height: 540px;
+  width: 490px;
+  margin-top: 38px;
+  margin-left: 25px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+
+    .sk-bac-cor {
+        margin-top: 70px;
+      width: 390px;
+      border-color: black;
+    }
+    .icon-all-box {
+        margin-top: 10px;
+      }  
+/* .sk-bac-cor {
+  height: 160px;
+  border-radius: 30px;
+  box-shadow: 2px 21px  26px grey;
+} */
+
+.sk-bac-cor {
+  height: 960px;
+  border-radius: 30px;
+  box-shadow: 2px 21px  26px grey;
+}
+.sk-bac-cor {
+    height: 1350px;
+    border-radius: 30px;
+    box-shadow: 2px 21px  26px grey;
+  }
+
+  .skill-gif {
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}

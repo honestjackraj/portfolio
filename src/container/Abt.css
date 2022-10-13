@@ -1,0 +1,82 @@
+.abt-all-down{
+  margin-top: 50px;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: -10px;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.awesome > :nth-child(3):hover {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.awesome > :nth-child(3):hover {
+  margin-left: 20px;
+  font-size: 20px;
+  transition-duration: 1s;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+.s-button {
+  width: 9rem;
+  height: 3rem;
+}
+
+.resume-name {
+  color: aliceblue;
+  text-decoration: none;
+}
+.abt-gif {
+  width: 380px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .abt-gif {
+    width: 350px;
+    height: 300px;
+  }
+  .awesome {
+    display: flex;
+    margin: 0px 0px 0px 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .s-button {
+    width: 50px;
+    height: 3rem;
+  }
+
+  .resume-name {
+    color: aliceblue;
+    text-decoration: none;
+  }
+}

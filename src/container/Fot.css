@@ -1,0 +1,274 @@
+.foot-a-all {
+  margin-top: 300px;
+  background-color: black;
+  height: 400px;
+}
+
+.foot-para {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffbb33;
+}
+
+.foot-para-head1 {
+  color: aliceblue;
+  margin-top: 202px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two-icon-nove {
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  gap: 2rem;
+}
+
+.F-icon-3-foot {
+  display: flex;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-fot{
+  height: 60px;
+  margin-top: -9rem;
+  gap: 1rem;
+  margin-left: 8px;
+
+}
+.F-icon-3-foot2 {
+  height: 60px;
+  margin: 200px 0px 0px 0px;
+  gap: 1rem;
+  display: flex;
+  border-radius: 6rem;
+}
+.F-icon-3-foot3 {
+  height: 60px;
+
+  gap: 1rem;
+  display: flex;
+}
+
+.F-icon-3-foot1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.F-icon-3-foot2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.F-icon-3-foot3:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.F-icon-3-foot1 img {
+  border-radius: 100px;
+}
+.F-icon-3-foot2 img {
+  border-radius: 100px;
+}
+.F-icon-3-foot3 img {
+  border-radius: 100px;
+}
+
+.foto-anima-gif{
+ display: flex;
+ position: absolute;
+ align-items: center;
+ justify-content: center;
+ margin-right: 300px;
+}
+.land-gif3{
+  height: 230px;
+  width: 230px;
+ margin: 0px 0px 0px -570px;
+
+}
+.land-gif2{
+  height: 230px;
+  width: 230px;
+  margin: 0px 0px 0px -570px;
+
+
+}
+.land-gif1{
+  height: 230px;
+  width: 230px;
+  margin: 0px 0px 0px -570px;
+
+
+}
+
+/* .scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(#ffbb33);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: var(#ffbb33);
+}
+
+.scrollup__icon {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #ffbb33;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color-light);
+} */
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+
+
+    .foot-a-all {
+        margin-top: 600px;
+        background-color: black;
+        width: 390px;
+      }
+      
+      .foot-para {
+        display: flex;
+        margin-top: 150px;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: #ffbb33;
+      }
+      
+      .foot-para-head1{
+        color: aliceblue;
+        margin-top: 202px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+      .two-icon-nove{
+        align-items: center;
+        justify-content: center;
+        /* margin-right: 10px; */
+        gap: 2rem;
+      }
+      
+      .F-icon-3-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .F-icon-3-foot1{
+        height: 5px;
+        margin-top: -9rem;
+        gap: 10px;
+      }
+      .F-icon-3-foot2 {
+        height: 60px;
+        /* margin: 200px 0px 0px 0px; */
+        gap: 1rem;
+        display: flex;
+        border-radius: 6rem;
+      }
+      .F-icon-3-foot3 {
+        height: 60px;
+      
+        gap: 1rem;
+        display: flex;
+      }
+      
+      .F-icon-3-foot1:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+      .F-icon-3-foot2:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+      .F-icon-3-foot3:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+      
+      .icon-fot{
+        height: 60px;
+        margin-top: 40px;
+        gap: 1rem;
+      
+      }
+      .F-icon-3-foot1 img {
+        border-radius: 100px;
+       height: 100px;
+       margin-top: 90px;
+
+      }
+      .F-icon-3-foot2 img {
+        border-radius: 100px;
+      }
+      .F-icon-3-foot3 img {
+        border-radius: 100px;
+      }
+
+      .foto-anima-gif{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 300px;
+       }
+       .land-gif3{
+        position: absolute;
+        display: flex;
+         height: 60px;
+         width: 60px;
+        margin: 500px 0px 0px 60px;
+       
+       }
+       .land-gif2{
+        position: absolute;
+         height: 60px;
+         width: 60px;
+         margin: 500px 50px 0px 0px;
+       
+       
+       }
+       .land-gif1{
+        position: absolute;
+         height: 60px;
+         width: 60px;
+         margin: 500px 0px 90px 40px;
+       
+       
+       }
+}

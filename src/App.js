@@ -1,31 +1,30 @@
 import React from 'react'
 
 import './App.css';
-import Navbar from './Component/Navbar';
-import Intro from "./Component/Intro"
-import About from "./Component/About"
-import Skill from "./Component/Skill"
-import Qualification from "./Component/Qualification"
-import Project from "./Component/Project"
-import Contact from "./Component/Contact"
-import Footer from "./Component/Footer"
+
+import Nav from "../src/container/nav"
+import Int from './container/Int';
+import Skills from './container/sk';
+import Abt from './container/Abt';
+import Qulifica from './container/Qulifica';
+import PJT from './container/PJT';
+import Cont from './container/Cont';
+import Fot from './container/Fot';
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
 
-      
-      <Navbar/>
-      <Intro/> 
-    <About/> 
-       <Skill/>
-     <Qualification/>
-    <Project/>
-      <Contact/>
-     <Footer/>
-
-    </div>
+      <Nav />
+      <Int />
+      <Abt />
+      <Skills />
+      <Qulifica />
+      <PJT />
+      <Cont />
+      <Fot />
+  </div>
   );
 }
 

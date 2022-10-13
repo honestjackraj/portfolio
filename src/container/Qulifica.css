@@ -1,0 +1,125 @@
+.Qulifi-all {
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  width: 1300px;
+  border-color: black;
+  background-color: #dcf7f7;
+  border-radius: 50px;
+}
+
+.Qulifi-all {
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 2px 21px 26px grey;
+}
+.qultion {
+  display: flex;
+  margin: 50px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.qualification__tabs {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+}
+.qualification__icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.section__subtitle {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 26px;
+  justify-content: center;
+  display: flex;
+}
+
+.section__title1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #f5c32c;
+  justify-content: center;
+  display: flex;
+}
+.que-imge {
+  display: flex;
+  height: 50px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.que-imge:hover {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 10px;
+}
+
+.home-qulification1 {
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-qulification2 {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .Qulifi-all {
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    width: 360px;
+    border-color: black;
+    background-color: #dcf7f7;
+    border-radius: 50px;
+  }
+  .Qulifi-all {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 21px 26px grey;
+  }
+  .que-imge {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    border-radius: 100px;
+  }
+  .qultion {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-qulification1 {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-qulification2 {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
