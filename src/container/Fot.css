@@ -148,11 +148,11 @@
   background-color: var(--text-color-light);
 } */
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   .foot-a-all {
-    margin-top: 600px;
+    margin-top: 200px;
     background-color: black;
-    width: 390px;
+    width: 490px;
   }
 
   .foot-para {
@@ -177,17 +177,17 @@
   .two-icon-nove {
     align-items: center;
     justify-content: center;
-    /* margin-right: 10px; */
+    margin-right: 10px;
     gap: 2rem;
   }
 
-  .F-icon-3-foot {
+  .F-icon-3-foot{
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .F-icon-3-foot1 {
-    height: 5px;
+  .F-icon-3-foot1{
+    height: 25px;
     margin-top: -9rem;
     gap: 10px;
   }
