@@ -1,13 +1,13 @@
 import React from 'react'
 import "../container/nav.css"
-import { Button, Link } from 'react-scroll'
+import { Button, Link } from 'react-scroll' 
 
 
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-warning">
     <div className="container">
-      <div className='my-name-nav' >
+      <div className='my-name-nav'>
       <Link className="navbar-brand" to="/"> <h2 className='na-log-name'>&#60;HONEST/&#62; </h2></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

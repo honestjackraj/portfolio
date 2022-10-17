@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import Fgit from "../asset/Fgit.png"
 import Finsta from "../asset/Finsta.jpg"
 import Flinkdin from "../asset/Flinkdin.png"
@@ -10,14 +11,14 @@ const Nav = () => {
 
 
     
+ <div className='  foot-a-all'>
 
-
-    <div  className=' contaniner  foot-a-all' >
+    <div  className=' contaniner ' >
     <div className="scrollup">
-     <a href="#" className="scrollup" id="scroll-top">
-     <i className="uil uil-arrow-up scrollup__icon"></i>
+     <Link to="#" className="scrollup" id="scroll-top">
+  <i className="uil uil-arrow-up scrollup__icon"></i>
 
-        </a>
+        </Link>
         </div>
 
         <div  className='container footer-all'>
@@ -79,7 +80,7 @@ const Nav = () => {
 
         </div>
       
-    
+        </div>
     
     
     

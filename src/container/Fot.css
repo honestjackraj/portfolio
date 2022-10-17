@@ -105,24 +105,28 @@
   height: 230px;
   width: 230px;
   margin: 0px 0px 0px -570px;
-
-
 }
 
-/* .scrollup {
+
+.scrollup{
+  
+}
+
+/* .scrollup{
+ 
   position: fixed;
-  right: 1rem;
+  right: 10pxrem;
   bottom: -20%;
-  background-color: var(#ffbb33);
+  background-color: white;
   opacity: 0.8;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
-  z-index: var(--z-tooltip);
+  z-index: index -1;;
   transition: 0.4s;
 }
 
-.scrollup:hover {
-  background-color: var(#ffbb33);
+.scrollup:hover{
+  background-color: orange;
 }
 
 .scrollup__icon {
