@@ -94,7 +94,6 @@
   color: black;
   font-weight: bold;
   cursor: pointer;
-  text-decoration-line: none;
 }
 .home__scroll-arrow {
   font-size: 2.25rem;
@@ -180,4 +179,5 @@
     font-size: 20px;
     margin: 0px 0px 10px 10px;
   }
+  
 }

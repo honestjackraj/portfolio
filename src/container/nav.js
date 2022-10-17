@@ -9,7 +9,7 @@ const Nav = () => {
     <div className="container">
       <div className='my-name-nav'>
       <Link className="navbar-brand" to="/"> <h2 className='na-log-name'>&#60;HONEST/&#62; </h2></Link>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button className="navbar-toggler tar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
 
       </button>
@@ -30,9 +30,11 @@ const Nav = () => {
           <li className="nav-item na-nm">
           <Link className="nav-link active" aria-current="page" to="pjt" spy={true} smooth={true} offset={-100} duration={500}>PROJECT</Link>
           </li>
-          <li className="nav-item na-nm-bmw">
+          <div className='na-nm-bmw-24'>
+          <li className="nav-item na-nm-bmw-22">
           <Link className="nav-link active " aria-current="page" to="cont" spy={true} smooth={true} offset={-100} duration={500}><button className='button glow-on-hover'>CONTACT ME </button></Link>
           </li>
+          </div>
         </ul>
       </div>
       </div>

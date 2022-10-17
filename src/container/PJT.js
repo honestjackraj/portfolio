@@ -33,6 +33,7 @@ const PJT = () => {
                                 </p><br/>
                                 <p>ReactJS , Nodejs , Express , MongoDB</p>
                                 <br/>
+                                <div className='pjc-3b'>
                                 <a href="" target="_blank" className="glow-on-hover pjt-bn">
                                     Live
                                     <i className="uil uil-arrow-right button__icon"></i>
@@ -45,6 +46,7 @@ const PJT = () => {
                                     Server
                                     <i className="uil uil-arrow-right button__icon"></i>
                                 </a>
+                                </div>
 
 
 

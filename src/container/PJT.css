@@ -58,4 +58,8 @@
     align-items: center;
     padding-left: 60px;
   }
+  .pjc-3b{
+    display: flex;
+    padding-left: 60px;
+  }
 }

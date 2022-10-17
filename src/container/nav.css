@@ -30,10 +30,11 @@
   border-radius: 100px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.na-nm-bmw {
+.na-nm-bmw-22{
   color: aliceblue;
-  margin-top: 3px;
+  margin-top: 5px;
   border-radius: 60px;
+  width: fit-content;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -48,8 +49,21 @@
     display: flex;
     font-weight: bold;
   }
+ .na-nm{
+  display: flex;
+    align-items: center;
+    justify-content: center;
 
-  .na-nm-bmw {
-    height: 255px;
+ }
+ .na-log-name{
+   font-weight: bold;
+   font-size: 2rem;
+  
   }
+  .tar{
+    margin-left: 41px;
+    font-size: 1.5rem;
+  }
+
+ 
 }
