@@ -10,6 +10,8 @@ import Qulifica from './container/Qulifica';
 import PJT from './container/PJT';
 import Cont from './container/Cont';
 import Fot from './container/Fot';
+import Cirtificate from './container/cirtificate';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       <Abt />
       <Skills />
       <Qulifica />
+     <Cirtificate/>
       <PJT />
       <Cont />
       <Fot />

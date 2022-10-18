@@ -3,6 +3,12 @@ import "../container/Qulifica.css"
 import guvi from "../asset/guvi.jpg"
 import svcclg from "../asset/svcclg.jpg"
 
+
+
+
+
+
+
 const Qulifica = () => {
   return (
     <>
@@ -24,6 +30,14 @@ const Qulifica = () => {
                     </div>
 
                  <div className='qultion'>  
+
+                 <div className="home-qualification-div2">
+            <div className="home-qulification1">Bachelor Of Engineering[ECE]</div>
+            <div className="home-qulification2">Saraswati Vellu college of Engineering-VELLORE, 2013-2017</div>
+            </div>
+            <img className="que-imge" src={svcclg}/>
+
+
                     
         <div className="home-qualification-div2">
             <div className="home-qulification1">Full Stack Developer</div>
@@ -31,18 +45,8 @@ const Qulifica = () => {
             </div>
             <img className="que-imge" src={guvi}/>
 
-       
-        <div className="home-qualification-div2">
-            <div className="home-qulification1">Bachelor Of Engineering[ECE]</div>
-            <div className="home-qulification2">Saraswati Vellu college of Engineering-VELLORE, 2013-2017</div>
-            </div>
-            <img className="que-imge" src={svcclg}/>
 
-       
-        </div> 
-    
-
-                    
+            </div>      
                 </div>
             </section>
             
