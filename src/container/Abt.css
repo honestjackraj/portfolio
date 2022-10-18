@@ -58,12 +58,13 @@
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   .abt-gif {
+    margin-top: 20px;
     width: 350px;
     height: 300px;
   }
   .awesome {
     display: flex;
-    margin: 0px 0px 0px 160px;
+    margin: 0px 0px 0px 180px;
     align-items: center;
     justify-content: center;
     text-align: center;
