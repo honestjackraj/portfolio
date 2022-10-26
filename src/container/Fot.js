@@ -27,7 +27,8 @@ const Nav = () => {
    <div className='F-icon-3-foot' >
 
    <div className='two-icon-nove'>
-                    <a href='https://www.instagram.com/naan_antha_kadhayin_micham/'>
+                   	<a href='https://www.instagram.com/naan_antha_kadhayin_micham/' rel="noreferrer" target="_blank">
+
                     <div className='F-icon-3-foot2'>
                     <img src={Finsta}  alt="img"/>
                     </div>
