@@ -34,15 +34,15 @@ const PJT = () => {
                                 <p>ReactJS , Nodejs , Express , MongoDB</p>
                                 <br/>
                                 <div className='pjc-3b'>
-                                <a href="" target="_blank" className="glow-on-hover pjt-bn">
+                                <a href="https://dreamshoping.netlify.app/" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
                                     Live
                                     <i className="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="" target="_blank" className="glow-on-hover pjt-bn">
+                                <a href="https://github.com/honestjackraj/shoping-Frontend" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
                                     Client
                                     <i className="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="" target="_blank" className="glow-on-hover pjt-bn">
+                                <a href="https://github.com/honestjackraj/shoping-Backend" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
                                     Server
                                     <i className="uil uil-arrow-right button__icon"></i>
                                 </a>
