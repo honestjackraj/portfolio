@@ -27,13 +27,13 @@ const Nav = () => {
    <div className='F-icon-3-foot' >
 
    <div className='two-icon-nove'>
-                   	<a href='https://www.instagram.com/naan_antha_kadhayin_micham/' rel="noreferrer" target="_blank">
+                   	<a href='https://www.instagram.com/naan_antha_kadhayin_micham/'  target="_blank" rel= "noreferrer">
 
                     <div className='F-icon-3-foot2'>
                     <img src={Finsta}  alt="img"/>
                     </div>
                     </a>
-                    <a href='https://www.linkedin.com/feed/'>
+                    <a href='https://www.linkedin.com/feed/'  target="_blank" rel= "noreferrer">
                     <div className='F-icon-3-foot3'>
                     <img src={Flinkdin}  alt="img"/>
                     </div>
@@ -43,7 +43,7 @@ const Nav = () => {
    <h1 className='foot-para-head1'> Thank you for visiting my portfolio</h1>
    <p  className='foot-para'> If you are interested in my profile just click and follow Me or Hire Me</p>
         <div className='icon-fot'>
-   <a href='https://github.com/honestjackraj'>
+   <a href='https://github.com/honestjackraj'  target="_blank" rel= "noreferrer">
                      <div className='F-icon-3-foot1'>
                    <img src={Fgit}  alt="img"/>
                     </div>

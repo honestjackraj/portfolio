@@ -39,15 +39,15 @@ const Int = () => {
                 </Link>
                 </div>
                 <div className='i-icons'>
-                    <Link to='https://github.com/honestjackraj'>
+                    <a href='https://github.com/honestjackraj'  target="_blank" rel= "noreferrer">
                         <img src={Github} alt="img" />
-                    </Link>
-                    <Link to='https://www.linkedin.com/feed/'>
+                    </a>
+                    <a href='https://www.linkedin.com/in/honest-raj-48239816a/'  target="_blank" rel= "noreferrer">
                         <img src={Linkedin} alt="img" />
-                    </Link>
-                    <Link to='https://www.linkedin.com/feed/'>
+                    </a>
+                    <a href='https://www.instagram.com/naan_antha_kadhayin_micham/'  target="_blank" rel= "noreferrer">
                         <img src={Instagram} alt="img" />
-                    </Link>
+                    </a>
                 </div>
                 <div>
                   
