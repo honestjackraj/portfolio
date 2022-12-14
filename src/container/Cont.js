@@ -4,7 +4,7 @@ import emailjs from "emailjs-com"
 
 
 const Cont = () => {
-    const form = useRef();
+    const form = useRef(); 
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -15,6 +15,7 @@ const Cont = () => {
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset()
     };
 
 
