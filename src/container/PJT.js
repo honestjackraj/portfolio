@@ -26,7 +26,7 @@ const PJT = () => {
   
 
 
-    <h2 className="portfolio__title">Ecommerce website</h2>
+    <h2 className="portfolio__title">Ecommerce Website</h2>
                                 <p className="portfolio__description">
                                 This Website name is DREAMS. Ecommerce website This website Authentication and Authorization front-end and back-end done. Responsive websites are designed to fit screen sizes such as desktop only. this site front-end only home and profile pages in progress. if you want check just click Demo Button.
                                    
