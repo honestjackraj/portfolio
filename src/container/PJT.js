@@ -34,7 +34,7 @@ const PJT = () => {
                                 <p>ReactJS , Nodejs , Express , MongoDB</p>
                                 <br/>
                                 <div className='pjc-3b'>
-                                <a href="https://dreamshoping.netlify.app/" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
+                                <a href="https://dream-of-style-frontendf.onrender.com/" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
                                     Live
                                     <i className="uil uil-arrow-right button__icon"></i>
                                 </a>

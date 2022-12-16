@@ -17,7 +17,7 @@ const abt = () => {
   <span >About </span>
   <p className=' about-content'>I'm a full stack web developer and desinging new features from Ideation to production,  implementaition of wireframes and design flows in my web application. I take into consideration the user experience while writing reusable and efficlebt code  I passionately combine Good design,Technology,and Innovation in all my PROJECT </p>
  <div className='resume'> <button  className='button glow-on-hover'>
-  <a className='resume-name' href="https://drive.google.com/file/d/1M_c39Ds3R_LIjGIcBuAgGFQiZxcOBu04/view?usp=sharing"  target="_blank" rel= "noreferrer"> 
+  <a className='resume-name' href="https://drive.google.com/drive/folders/1uB9sfycIpWbyUeGsUfZNT45sZusamKGJ"  target="_blank" rel= "noreferrer"> 
   Download CV </a><i class="uil uil-download-alt button__icon"></i></button></div>
 
 </div>
