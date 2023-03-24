@@ -23,7 +23,7 @@ function App() {
       <Abt />
       <Skills />
       <Qulifica />
-     <Cirtificate/>
+      <Cirtificate/>
       <PJT />
       <Cont />
       <Fot />
