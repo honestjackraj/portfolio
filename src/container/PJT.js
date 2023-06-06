@@ -3,6 +3,7 @@ import React from 'react'
  import ecomers from "../asset/ecomers.jpg"
  import Weather from "../image/weather.png"
  import Cafsmoney from "../asset/Cafsmoney.png"
+ import Portfolio from "../asset/portfolio.png"
 
 
 const PJT = () => {
@@ -113,6 +114,57 @@ const PJT = () => {
     </div>
   </div>
   </div> 
+
+ {/* portfolio */}
+
+
+ <div className="container text-center pjc-sec-box">
+  <div className="row">
+    <div className="col">
+    <img src={Portfolio} alt="" className="portfolio__img"/>
+    </div>
+
+
+    
+    <div className="col">
+  
+
+
+    <h2 className="portfolio__title"> MY-Portfolio-source-code</h2>
+                                <p className="portfolio__description">
+                                This Website name is  Portfolio website This website Authentication and Authorization front-end done.  its  mobile Responsive websites are designed to fit screen sizes such as desktop only. this site front-end in progress. if you want check just click Demo Button.
+                                   
+                                </p><br/>
+                                <p> ReactJS ,Css3, jAVASCRIPT,  </p>
+                                <br/>
+                                <div className='pjc-3b'>
+                                <a href="https://honestraj-in.netlify.app/" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
+                                    Live
+                                    <i className="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/honestjackraj/portfolio" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
+                                    Client
+                                    <i className="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/honestjackraj/portfolio" target="_blank" rel= "noreferrer" className="glow-on-hover pjt-bn">
+                                    Server
+                                    <i className="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                </div>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+
+
 
 
 
